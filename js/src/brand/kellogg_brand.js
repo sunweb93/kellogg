@@ -52,7 +52,7 @@
 			bUl.append('<li><a href="#"><p></p></a></li>');
 			var bLi  = bUl.children('li');		
 			bLi.eq(i).find('p').text(cerealArr[i].name);
-			bLi.eq(i).css({backgroundImage:'url(../img/brand/'+	cerealArr[i].pic+'.png)'});
+			bLi.eq(i).css({backgroundImage:'url(../../../img/brand/'+	cerealArr[i].pic+'.png)'});
 		};
 	};
 
@@ -63,7 +63,7 @@
 			var bLi  = bUl.children('li');		
 			bLi.css({backgroundSize:'90%',backgroundPosition: '50% 40%'});
 			bLi.eq(i).find('p').text(barArr[i].name);
-			bLi.eq(i).css({backgroundImage:'url(../img/brand/'+	barArr[i].pic+'.png)'});
+			bLi.eq(i).css({backgroundImage:'url(../../../img/brand/'+	barArr[i].pic+'.png)'});
 
 		};
 	};
@@ -74,7 +74,7 @@
 			bUl.append('<li><a href="#"><p></p></a></li>');
 			var bLi  = bUl.children('li');		
 			bLi.eq(i).find('p').text(newArr[i].name);
-			bLi.eq(i).css({backgroundImage:'url(../img/brand/'+	newArr[i].pic+'.png)'});
+			bLi.eq(i).css({backgroundImage:'url(../../../img/brand/'+	newArr[i].pic+'.png)'});
 		};
 	};
 

@@ -12,7 +12,7 @@ var valueArr = [
 		];
 
 for(i=0; i < 5; i+=1){
-	vLi.eq(i).children('.v_pic').css({backgroundImage:'url(../../../img/company/'+valueArr[i].pic+'.png)', borderColor:valueArr[i].color});
+	vLi.eq(i).children('.v_pic').css({backgroundImage:'url(../img/company/'+valueArr[i].pic+'.png)', borderColor:valueArr[i].color});
 	};
 
 
