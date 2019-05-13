@@ -60,18 +60,18 @@ var pcGnb = function(){
 
 	brandDd.on('mouseenter',function(){
 		var i = $(this).index();
-		bPic.css({backgroundImage:'url(../../../img/brand/brand_0'+i+'.png)'})
+		bPic.css({backgroundImage:'url(../img/brand/brand_0'+i+'.png)'})
 	});
 
 	brandDd02.on('mouseenter',function(){
 		var i = $(this).index();
-		bPic.css({backgroundImage:'url(../../../img/brand/brand_2_0'+i+'.png)'});
+		bPic.css({backgroundImage:'url(../img/brand/brand_2_0'+i+'.png)'});
 	});
 
 	sLi.on('mouseenter',function(){
 		var i = $(this).index();
 		var k = i+1;
-		sPic.css({backgroundImage:'url(../../../img/story/story_0'+k+'.png)'});
+		sPic.css({backgroundImage:'url(../img/story/story_0'+k+'.png)'});
 	});
 };
 
