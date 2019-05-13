@@ -1,0 +1,8 @@
+/* kellogg_brand.css */
+
+@import url("./common/kellogg_header.css");
+@import url("./common/kellogg_footer.css");
+@import url("./brand/kellogg_brand_common.css");
+@import url("./brand/kellogg_brand_mob.css");
+@import url("./brand/kellogg_brand_tab.css");
+@import url("./brand/kellogg_brand_pc.css");

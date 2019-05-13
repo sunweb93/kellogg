@@ -1,0 +1,16 @@
+/* kellogg_brand_common.css */
+
+#wrap{width: 100%; height: auto;}
+
+#banner{box-sizing: border-box; width: 100%; background-image: url('../../../img/brand/banner.png'); background-repeat: no-repeat; background-size: cover; background-position: center;}
+
+.title>ul{width: 100%; height: 100%;}
+	.title>ul>li{float: left; width: calc(100% / 3); height: 100%;}
+.title>ul>li>button{width: 100%; height: 100%; border: 1px solid  #e1e1e1; box-sizing: border-box; border-right: none;}
+.title>ul>li:last-child>button{border: 1px solid  #e1e1e1;}
+.title>ul>li.active button{border: none; background-color: #d50842; color: #fff; }
+
+.brand_list>ul>li{box-sizing: border-box; background-size: 70%; background-position: 50% 20%; background-repeat: no-repeat; background-color: #fff; }
+
+.brand_list>ul>li>a{position: relative; display: block; width: 100%; height: 100%;}
+.brand_list>ul>li>a>p{position: absolute; bottom: 0; width: 100%; height: 60px; line-height: 60px; text-align: center; font-weight: 600; transition: 500ms ease}

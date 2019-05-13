@@ -1,0 +1,16 @@
+/* common.css */
+@charset "UTF-8";
+
+.hidden_wrap a,
+.hidden_wrap button{display: block; width: 100%; height: 100%;}
+
+.hidden, .hidden_wrap a>span, .hidden_wrap span,
+.hidden_wrap button>span{display: block; width: 0; height: 0; overflow: hidden; position: absolute; z-index: -100;}
+
+.clearfix:after,
+.clearfix::after{content:" "; display: block; width: 0; height: 0; clear: both;}
+
+#wrap{margin:0 auto;}
+
+.container{margin: auto; width: auto; max-width: 60rem; height: auto;}
+.container_wrap{max-height: padding: 0 0.625rem; box-sizing: border-box; width: auto; height:auto; max-width: auto;}

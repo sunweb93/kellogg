@@ -1,0 +1,8 @@
+/* kellogg_company.css */
+
+@import url("./common/kellogg_header.css");
+@import url("./common/kellogg_footer.css");
+@import url("./company/kellogg_company_common.css");
+@import url("./company/kellogg_company_mob.css");
+@import url("./company/kellogg_company_tab.css");
+@import url("./company/kellogg_company_pc.css");

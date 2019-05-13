@@ -1,0 +1,46 @@
+/* kellogg_main_common.css */
+
+#banner{position: relative; overflow: hidden;}
+#banner>ul{height: 100%;}
+	#banner>ul>li{float: left; height: 100%; background-image:url('../../../img/main/banner_01.png'); background-repeat: no-repeat; background-size: cover; background-position: center;}
+	#banner>ul>li:nth-child(1){background-image:url('../../../img/main/banner_03.png')}
+	#banner>ul>li:nth-child(3){background-image:url('../../../img/main/banner_02.png')}
+	#banner>ul>li:nth-child(4){background-image:url('../../../img/main/banner_03.png')}
+	
+	.button_box{position: absolute; top: 50%; padding: 0 3vw/*1000px*/; box-sizing: border-box; width: 100%; height: 0;}
+	.button_box>button{background-image: url(../../../img/main/button.svg); background-repeat: no-repeat; background-size: contain; opacity: 0.90;}
+	.button_box>button:hover{background-image: url(../../../img/main/button_hover.svg);}
+	.n_btn{float: right;}
+	.p_btn{float: left; transform: rotate(180deg);}
+	
+	.indicator{position: absolute; display: inline-block;
+	 width: auto; height: auto; left: 50%; bottom: 20px; transform: translateX(-50%);}
+	.indicator>ul{display: inline-block; padding: 6px 15px; border-radius: 15px; background-color: rgba(0,0,0,0.5);}
+	.indicator>ul>li{float: left; border: 2px solid rgba(255,255,255,0.5);}
+	.indicator>ul>li:last-child{margin: 0;}
+	.indicator>ul>li.active{background-color: #fff}
+	.indicator>ul>li>button{display: block; width: 100%; height: 100%;}
+
+	#brand{box-sizing: border-box; width: 100%; height: auto;}
+		.title{width: 100%; text-align: center; font-weight: 600; border-bottom: 5px solid #d50842}
+		.product{position: relative; display: block; float: left;
+		 box-shadow: 0 0.3rem 1rem rgba(0,0,0,0.1);}
+		.product:nth-of-type(1)>.m_pic{background-image: url('../../../img/brand/brand_2_04.png')}
+		.product:nth-of-type(2)>.m_pic{background-image: url('../../../img/brand/brand_2_01.png')}
+		.product:nth-of-type(3)>.m_pic{background-image: url('../../../img/brand/brand_2_02.png')}
+		.m_pic{width: 100%; height: 100%; background-size: 75%; background-position: 50% 20%; background-repeat: no-repeat; transition: all 500ms ease}
+		.product>p{position: absolute; bottom: 0; width: 100%; height: 60px; line-height: 60px; text-align: center; font-weight: 600; transition: 500ms ease}
+
+	#value{box-sizing: border-box; background-image: url('../../../img/main/bg_01.png'); background-repeat: no-repeat; background-position: center; background-size: cover;}
+		.pic_box{position: absolute; top: 50%; transform: translateY(-50%);width: 100%; height: 100%; background-size: cover; background-position: right; background-repeat: no-repeat; box-shadow: 0.5rem 0.5rem 2rem rgba(0,0,0,0.1)}
+		.conlist{position: relative;}	
+		.conlist:nth-child(2n){margin-bottom: 0;}
+		.conlist:nth-child(2n)>a{left: auto; right: 0;}
+		.conlist:nth-child(2n) .pic_box{background-position: left;}
+		.conlist:nth-child(1) .pic_box{background-image: url('../../../img/main/link_01.png');}
+		.conlist:nth-child(2) .pic_box{background-image: url('../../../img/main/link_02.png');}
+
+		.conlist>a{position: absolute; box-sizing: border-box; background-color: #fff; box-shadow: 0.5rem 0.5rem 2rem rgba(0,0,0,0.1);}
+		.conlist dl{position: relative;	width: 100%; height: 100%; }
+		.conlist dl>dd:nth-of-type(2){position: absolute;	left: 50%;	transform: translateX(-50%); background-color: #d50842; border-radius: 2rem; text-align: center; line-height: 40px; color: #fff; font-weight: 600; transition: all 500ms ease}
+		

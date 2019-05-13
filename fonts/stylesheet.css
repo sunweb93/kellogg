@@ -1,0 +1,192 @@
+@font-face {
+    font-family: '';
+    src: url('hinted-NotoSansKR-Light-Alphabetic.eot');
+    src: url('hinted-NotoSansKR-Light-Alphabetic.eot?#iefix') format('embedded-opentype'),
+        url('hinted-NotoSansKR-Light-Alphabetic.woff2') format('woff2'),
+        url('hinted-NotoSansKR-Light-Alphabetic.woff') format('woff'),
+        url('hinted-NotoSansKR-Light-Alphabetic.ttf') format('truetype'),
+        url('hinted-NotoSansKR-Light-Alphabetic.svg#NotoSansKR-Light-Alphabetic') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '';
+    src: url('hinted-NotoSansKR-Regular-Alphabetic.eot');
+    src: url('hinted-NotoSansKR-Regular-Alphabetic.eot?#iefix') format('embedded-opentype'),
+        url('hinted-NotoSansKR-Regular-Alphabetic.woff2') format('woff2'),
+        url('hinted-NotoSansKR-Regular-Alphabetic.woff') format('woff'),
+        url('hinted-NotoSansKR-Regular-Alphabetic.ttf') format('truetype'),
+        url('hinted-NotoSansKR-Regular-Alphabetic.svg#NotoSansKR-Regular-Alphabetic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '';
+    src: url('hinted-NotoSansKR-Bold-Alphabetic.eot');
+    src: url('hinted-NotoSansKR-Bold-Alphabetic.eot?#iefix') format('embedded-opentype'),
+        url('hinted-NotoSansKR-Bold-Alphabetic.woff2') format('woff2'),
+        url('hinted-NotoSansKR-Bold-Alphabetic.woff') format('woff'),
+        url('hinted-NotoSansKR-Bold-Alphabetic.ttf') format('truetype'),
+        url('hinted-NotoSansKR-Bold-Alphabetic.svg#NotoSansKR-Bold-Alphabetic') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '';
+    src: url('hinted-NotoSansKR-Thin-Alphabetic.eot');
+    src: url('hinted-NotoSansKR-Thin-Alphabetic.eot?#iefix') format('embedded-opentype'),
+        url('hinted-NotoSansKR-Thin-Alphabetic.woff2') format('woff2'),
+        url('hinted-NotoSansKR-Thin-Alphabetic.woff') format('woff'),
+        url('hinted-NotoSansKR-Thin-Alphabetic.ttf') format('truetype'),
+        url('hinted-NotoSansKR-Thin-Alphabetic.svg#NotoSansKR-Thin-Alphabetic') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '';
+    src: url('hinted-NotoSansKR-Regular-Alphabetic.eot');
+    src: url('hinted-NotoSansKR-Regular-Alphabetic.eot?#iefix') format('embedded-opentype'),
+        url('hinted-NotoSansKR-Regular-Alphabetic.woff2') format('woff2'),
+        url('hinted-NotoSansKR-Regular-Alphabetic.woff') format('woff'),
+        url('hinted-NotoSansKR-Regular-Alphabetic.ttf') format('truetype'),
+        url('hinted-NotoSansKR-Regular-Alphabetic.svg#NotoSansKR-Regular-Alphabetic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '';
+    src: url('hinted-NotoSansKR-Medium-Alphabetic.eot');
+    src: url('hinted-NotoSansKR-Medium-Alphabetic.eot?#iefix') format('embedded-opentype'),
+        url('hinted-NotoSansKR-Medium-Alphabetic.woff2') format('woff2'),
+        url('hinted-NotoSansKR-Medium-Alphabetic.woff') format('woff'),
+        url('hinted-NotoSansKR-Medium-Alphabetic.ttf') format('truetype'),
+        url('hinted-NotoSansKR-Medium-Alphabetic.svg#NotoSansKR-Medium-Alphabetic') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '';
+    src: url('hinted-NotoSansKR-Black-Alphabetic.eot');
+    src: url('hinted-NotoSansKR-Black-Alphabetic.eot?#iefix') format('embedded-opentype'),
+        url('hinted-NotoSansKR-Black-Alphabetic.woff2') format('woff2'),
+        url('hinted-NotoSansKR-Black-Alphabetic.woff') format('woff'),
+        url('hinted-NotoSansKR-Black-Alphabetic.ttf') format('truetype'),
+        url('hinted-NotoSansKR-Black-Alphabetic.svg#NotoSansKR-Black-Alphabetic') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gloria Hallelujah';
+    src: url('hinted-GloriaHallelujah.eot');
+    src: url('hinted-GloriaHallelujah.eot?#iefix') format('embedded-opentype'),
+        url('hinted-GloriaHallelujah.woff2') format('woff2'),
+        url('hinted-GloriaHallelujah.woff') format('woff'),
+        url('hinted-GloriaHallelujah.ttf') format('truetype'),
+        url('hinted-GloriaHallelujah.svg#GloriaHallelujah') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Indie Flower';
+    src: url('hinted-IndieFlower.eot');
+    src: url('hinted-IndieFlower.eot?#iefix') format('embedded-opentype'),
+        url('hinted-IndieFlower.woff2') format('woff2'),
+        url('hinted-IndieFlower.woff') format('woff'),
+        url('hinted-IndieFlower.ttf') format('truetype'),
+        url('hinted-IndieFlower.svg#IndieFlower') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Permanent Marker';
+    src: url('hinted-PermanentMarker-Regular.eot');
+    src: url('hinted-PermanentMarker-Regular.eot?#iefix') format('embedded-opentype'),
+        url('hinted-PermanentMarker-Regular.woff2') format('woff2'),
+        url('hinted-PermanentMarker-Regular.woff') format('woff'),
+        url('hinted-PermanentMarker-Regular.ttf') format('truetype'),
+        url('hinted-PermanentMarker-Regular.svg#PermanentMarker-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Patrick Hand';
+    src: url('hinted-PatrickHand-Regular.eot');
+    src: url('hinted-PatrickHand-Regular.eot?#iefix') format('embedded-opentype'),
+        url('hinted-PatrickHand-Regular.woff2') format('woff2'),
+        url('hinted-PatrickHand-Regular.woff') format('woff'),
+        url('hinted-PatrickHand-Regular.ttf') format('truetype'),
+        url('hinted-PatrickHand-Regular.svg#PatrickHand-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Dancing Script';
+    src: url('hinted-DancingScript-Regular.eot');
+    src: url('hinted-DancingScript-Regular.eot?#iefix') format('embedded-opentype'),
+        url('hinted-DancingScript-Regular.woff2') format('woff2'),
+        url('hinted-DancingScript-Regular.woff') format('woff'),
+        url('hinted-DancingScript-Regular.ttf') format('truetype'),
+        url('hinted-DancingScript-Regular.svg#DancingScript-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Shadows Into';
+    src: url('hinted-ShadowsIntoLight.eot');
+    src: url('hinted-ShadowsIntoLight.eot?#iefix') format('embedded-opentype'),
+        url('hinted-ShadowsIntoLight.woff2') format('woff2'),
+        url('hinted-ShadowsIntoLight.woff') format('woff'),
+        url('hinted-ShadowsIntoLight.ttf') format('truetype'),
+        url('hinted-ShadowsIntoLight.svg#ShadowsIntoLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Federant';
+    src: url('hinted-Federant-Regular.eot');
+    src: url('hinted-Federant-Regular.eot?#iefix') format('embedded-opentype'),
+        url('hinted-Federant-Regular.woff2') format('woff2'),
+        url('hinted-Federant-Regular.woff') format('woff'),
+        url('hinted-Federant-Regular.ttf') format('truetype'),
+        url('hinted-Federant-Regular.svg#Federant-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pacifico';
+    src: url('hinted-Pacifico-Regular.eot');
+    src: url('hinted-Pacifico-Regular.eot?#iefix') format('embedded-opentype'),
+        url('hinted-Pacifico-Regular.woff2') format('woff2'),
+        url('hinted-Pacifico-Regular.woff') format('woff'),
+        url('hinted-Pacifico-Regular.ttf') format('truetype'),
+        url('hinted-Pacifico-Regular.svg#Pacifico-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Dancing Script';
+    src: url('hinted-DancingScript-Bold.eot');
+    src: url('hinted-DancingScript-Bold.eot?#iefix') format('embedded-opentype'),
+        url('hinted-DancingScript-Bold.woff2') format('woff2'),
+        url('hinted-DancingScript-Bold.woff') format('woff'),
+        url('hinted-DancingScript-Bold.ttf') format('truetype'),
+        url('hinted-DancingScript-Bold.svg#DancingScript-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+

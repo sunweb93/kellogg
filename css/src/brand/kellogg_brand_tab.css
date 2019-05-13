@@ -1,0 +1,17 @@
+/* kellogg_brand_tab.css */
+
+@media screen and (min-width: 481px) and (max-width: 1000px){
+#wrap{padding-top: 60px; box-sizing: border-box; }
+
+#banner{padding: 60px 20px; height: 40vw/*400px*/}
+#conBox{padding: 40px 20px;}
+	.title{margin: 0 auto 30px; width: 80%; height: 5vw/*50px*/; min-height: 30px;}
+	.title>ul>li>button{font-size:0.9rem;}
+
+	.brand_list{width: 100%; height: auto;}
+	.brand_list>ul{width: 100%; height: auto;}
+	.brand_list>ul>li{float: left; margin-bottom: 30px; width: 47%; height: 60vw/*600px*/; box-shadow: 0 0.3rem 1rem rgba(0,0,0,0.2); background-size: auto 75%; background-position: 50% 20%}
+	.brand_list>ul>li:nth-child(2n){float: right;}
+	.brand_list>ul>li>a>p{display: inline-block; height: 50px; line-height: 50px; background-color: #d50842; color: #fff}
+	
+	}

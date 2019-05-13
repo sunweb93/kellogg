@@ -1,0 +1,11 @@
+/* kellogg_story_pc.css */
+
+#banner{box-sizing: border-box; width: 100%; background-image: url('../../../img/story/banner.png'); background-repeat: no-repeat; background-size: cover; background-position: center;}
+
+#conBox{box-sizing: border-box; width: 100%; height: auto;}
+	.conlist{position: relative; }
+	.pic_box{position: absolute; background-size: cover; background-repeat: no-repeat; background-position: center;}
+	.conlist:nth-child(1) .pic_box{background-image: url('../../../img/story/story_li_01.png');;}
+	.conlist:nth-child(2) .pic_box{background-image: url('../../../img/story/story_li_02.png');}
+	.conlist:nth-child(3) .pic_box{background-image: url('../../../img/story/story_li_03.png');}
+	.conlist:nth-child(4) .pic_box{background-image: url('../../../img/story/story_li_04.png');}
